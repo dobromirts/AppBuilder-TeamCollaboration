@@ -12,7 +12,7 @@ describe('MyTasksComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [ MyTasksComponent ],
-      imports: [ NoopAnimationsModule, FormsModule, IgxBadgeModule, IgxListModule, IgxIconModule, IgxButtonModule, IgxRippleModule, IgxSliderModule, IgxAvatarModule, IgxCalendarModule ]
+      imports: [ NoopAnimationsModule, FormsModule, IgxBadgeModule, IgxListModule, IgxIconModule, IgxButtonModule, IgxRippleModule, IgxAvatarModule, IgxCalendarModule ]
     })
     .compileComponents();
   });
